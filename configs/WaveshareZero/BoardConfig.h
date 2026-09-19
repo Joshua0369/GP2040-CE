@@ -10,6 +10,7 @@
 #include "class/hid/hid.h"
 
 #define BOARD_CONFIG_LABEL "Waveshare Zero"
+#define DEFAULT_INPUT_MODE INPUT_MODE_KEYBOARD
 
 // Main pin mapping Configuration
 //                                                // GP2040 | Target Key |
