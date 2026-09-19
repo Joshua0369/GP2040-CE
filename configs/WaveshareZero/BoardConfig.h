@@ -24,17 +24,17 @@
 #define GPIO_PIN_26 GpioAction::BUTTON_PRESS_R1     // R1     | K          |
 #define GPIO_PIN_27 GpioAction::BUTTON_PRESS_L2     // L2     | L          |
 
-// Unused GPIO pins explicitly disabled
-#define GPIO_PIN_00 -1
-#define GPIO_PIN_01 -1
-#define GPIO_PIN_02 -1
-#define GPIO_PIN_03 -1
-#define GPIO_PIN_04 -1
-#define GPIO_PIN_10 -1
-#define GPIO_PIN_11 -1
-#define GPIO_PIN_12 -1
-#define GPIO_PIN_28 -1
-#define GPIO_PIN_29 -1
+// Unused GPIO pins explicitly set to NONE
+#define GPIO_PIN_00 GpioAction::NONE
+#define GPIO_PIN_01 GpioAction::NONE
+#define GPIO_PIN_02 GpioAction::NONE
+#define GPIO_PIN_03 GpioAction::NONE
+#define GPIO_PIN_04 GpioAction::NONE
+#define GPIO_PIN_10 GpioAction::NONE
+#define GPIO_PIN_11 GpioAction::NONE
+#define GPIO_PIN_12 GpioAction::NONE
+#define GPIO_PIN_28 GpioAction::NONE
+#define GPIO_PIN_29 GpioAction::NONE
 
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Target Key |
@@ -49,14 +49,14 @@
 #define KEY_BUTTON_R1   HID_KEY_K             // R1     | K          |
 #define KEY_BUTTON_L2   HID_KEY_L             // L2     | L          |
 
-#define KEY_DPAD_UP     -1
-#define KEY_DPAD_DOWN   -1
-#define KEY_DPAD_RIGHT  -1
-#define KEY_DPAD_LEFT   -1
-#define KEY_BUTTON_R2   -1
-#define KEY_BUTTON_R3   -1
-#define KEY_BUTTON_L3   -1
-#define KEY_BUTTON_A2   -1
-#define KEY_BUTTON_FN   -1
+#define KEY_DPAD_UP     0x00
+#define KEY_DPAD_DOWN   0x00
+#define KEY_DPAD_RIGHT  0x00
+#define KEY_DPAD_LEFT   0x00
+#define KEY_BUTTON_R2   0x00
+#define KEY_BUTTON_R3   0x00
+#define KEY_BUTTON_L3   0x00
+#define KEY_BUTTON_A2   0x00
+#define KEY_BUTTON_FN   0x00
 
 #endif
