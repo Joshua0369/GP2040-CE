@@ -24,17 +24,17 @@
 #define GPIO_PIN_26 GpioAction::BUTTON_PRESS_R1     // R1     | RB     | R       | R1       | 6      | P3     |
 #define GPIO_PIN_27 GpioAction::BUTTON_PRESS_L2     // L2     | LT     | ZL      | L2       | 7      | K4     |
 
-// Unused DPAD / Extra pins set to -1
-#define GPIO_PIN_00 -1
-#define GPIO_PIN_01 -1
-#define GPIO_PIN_02 -1
-#define GPIO_PIN_03 -1
-#define GPIO_PIN_04 -1
-#define GPIO_PIN_10 -1
-#define GPIO_PIN_11 -1
-#define GPIO_PIN_12 -1
-#define GPIO_PIN_28 -1
-#define GPIO_PIN_29 -1
+// Unused DPAD / Extra pins set to no action
+#define GPIO_PIN_00 GpioAction::NONE
+#define GPIO_PIN_01 GpioAction::NONE
+#define GPIO_PIN_02 GpioAction::NONE
+#define GPIO_PIN_03 GpioAction::NONE
+#define GPIO_PIN_04 GpioAction::NONE
+#define GPIO_PIN_10 GpioAction::NONE
+#define GPIO_PIN_11 GpioAction::NONE
+#define GPIO_PIN_12 GpioAction::NONE
+#define GPIO_PIN_28 GpioAction::NONE
+#define GPIO_PIN_29 GpioAction::NONE
 
 // Keyboard Mapping Configuration
 //                                            // GP2040 | Target Key |
