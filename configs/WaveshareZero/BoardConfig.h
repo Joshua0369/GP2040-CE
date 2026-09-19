@@ -10,10 +10,11 @@
 #include "class/hid/hid.h"
 
 #define BOARD_CONFIG_LABEL "Waveshare Zero"
+
+// Force Keyboard HID mode by default on startup
 #define DEFAULT_INPUT_MODE INPUT_MODE_KEYBOARD
 
 // Main pin mapping Configuration
-//                                                // GP2040 | Target Key |
 #define GPIO_PIN_05 GpioAction::BUTTON_PRESS_S2     // S2     | S          |
 #define GPIO_PIN_06 GpioAction::BUTTON_PRESS_B1     // B1     | D          |
 #define GPIO_PIN_07 GpioAction::BUTTON_PRESS_B2     // B2     | F          |
@@ -38,7 +39,6 @@
 #define GPIO_PIN_29 GpioAction::NONE
 
 // Keyboard Mapping Configuration
-//                                            // GP2040 | Target Key |
 #define KEY_BUTTON_S2   HID_KEY_S             // S2     | S          |
 #define KEY_BUTTON_B1   HID_KEY_D             // B1     | D          |
 #define KEY_BUTTON_B2   HID_KEY_F             // B2     | F          |
